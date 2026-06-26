@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background:  linear-gradient(to right, #a0a5b0, #e5ba73);
+    color: #121316;
+}
+header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121316;
+    padding: 15px 40px;
+    font-size: 25px;
+    font-family: UnifrakturMaguntia;
+}
+.nav-list{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 18px;
+}
+.nav-list a{
+    color: #e5ba73;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.hero{
+    color: #ffffff;
+    height: 300px;
+    min-height: 60vh;
+    background: url('mn.jpg') center/cover no-repeat;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    text-shadow: 9px 9px 12px #ffffff;
+}
+.hero h1{
+    font-size: 45px;
+    margin-bottom: 0;
+    transition: all 0.3s ease-in-out;
+}
+.hero p{
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin: 60px 100px;
+    gap: 50px;
+}
+.card{
+   
+    background-image: linear-gradient(rgb(255, 255, 255 ,0.5), rgb(255, 255, 255 ,0.5)), url('cs.jfif');
+    width: 500px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    border: 2px solid #121316;
+    transition: all 0.3s ease-in-out;
+    
+}
+.card h2{
+    font-size: 32px;
+    margin-bottom: 0;
+}
+.card p{
+    font-size: 20px;
+}
+img{
+    width: 500px;
+    border-radius: 50px;
+    border: 2px solid #121316;
+    transition: all 0.3s ease-in-out;
+}
+.card a{
+    background-color: #e5ba73;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+footer{
+    background-color: #121316;
+    padding: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+.nav-list a:hover{
+    color: #ffffff;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+img:hover{
+    transform: scale(1.1);
+}
+.btn:hover{
+    background-color: #121316;
+    transform: scale(1.1);
+    box-shadow: 4px 4px 4px #e5ba73;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card2{
+    background-image: linear-gradient(rgb(255, 255, 255 ,0.5), rgb(255, 255, 255 ,0.5)), url('wv.jfif');;
+    width: 1100px;
+    border: 2px solid #121316;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 30px;
+
+}
+.card2 p{
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+.hero h1:hover{
+    font-size: 55px;
+}
+.hero p:hover{
+    font-size: 40px;
+}
+
+
