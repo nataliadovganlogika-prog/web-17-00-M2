@@ -1,0 +1,123 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #942323;
+  color: #948723;
+}
+header{
+    color: #b3533b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8f852c;
+    padding: 15px 28px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nav-list{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 18px;
+}
+.nav-list a{
+    color: white;
+    text-decoration: none;
+}
+.hero{
+    color: white;
+    height: 300px;
+    min-height: 60vh;
+    background: url('imgg2.jpg') center/cover no-repeat;
+   display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 3px 12px 30px #000000;
+}
+.hero h1{
+    font-size: 56px;
+    margin-bottom: 0;
+}
+.hero p{
+    font-size: 30px;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: stretch;
+    margin: 60px 100px;
+}
+.card{
+    background-color: #754848;
+    width: 500px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+     transition: all 0.3s ease-in-out;
+}
+.card h3{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.card p{
+    font-size: 20px;
+}
+img{
+    width: 500px;
+    border-radius: 50px;
+     transition: all 0.3s ease-in-out;
+}
+.card a{
+    background-color: #947954;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+}
+.nav-list a:hover{
+    color: #9e810b;
+}
+.card:hover{
+transform: scale(1.2);    
+}
+img:hover{
+    transform: scale(1.1);
+}
+.btn:hover{
+    background-color: #611212;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 8px #9e810b;
+    cursor: pointer;
+}
+.cards{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card2{
+  background-color: #6e611d;
+  width: 1000px;
+  border-radius: 30px;
+  padding: 20px;
+  margin-bottom: 40px;
+    transition: all 0.3s ease-in-out;
+    color: black;
+}
+.card2:hover{
+    transform: scale(1.1);
+}
